@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { GestionarUsuariosComponent } from './funci_JeissonO_prueba/gestionar-usuarios/gestionar-usuarios.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    GestionarUsuariosComponent,
+    
   ],
   imports: [
     BrowserModule,
